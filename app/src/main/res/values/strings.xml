@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App -->
-    <string name="app_name">Weather</string>
+    <string name="app_name">SkyPulse</string>
     <string name="breezy_weather" translatable="false">Breezy Weather</string>
     <string name="forecast">Forecast</string>
-    <string name="daily_forecast">Daily forecast</string>
-    <string name="hourly_forecast">Hourly forecast</string>
-    <string name="current_weather">Current weather</string>
+    <string name="daily_forecast">Forecast Hub</string>
+    <string name="hourly_forecast">Live Timeline</string>
+    <string name="current_weather">Sky condition</string>
     <!-- Nowcasting is a FORECAST of the next 2-3 hours, also called "immediate forecast" -->
     <string name="precipitation_nowcasting">Precipitation nowcasting</string>
-    <string name="air_quality">Air quality</string>
+    <string name="air_quality">AirSense</string>
     <!-- About 12 characters max -->
-    <string name="air_quality_short">Air quality</string>
+    <string name="air_quality_short">AirSense</string>
     <!-- We use it singular in English as in “Grass pollen” -->
     <string name="pollen">Pollen</string>
     <string name="ephemeris">Sun &amp; moon</string>
-    <string name="ephemeris_sun">Sun</string>
-    <string name="ephemeris_moon">Moon</string>
+    <string name="ephemeris_sun">Sun watch</string>
+    <string name="ephemeris_moon">Moon watch</string>
     <string name="ephemeris_about">About rise and set times</string>
     <string name="ephemeris_about_rise">The rise time is when the sun or moon fully appears above the horizon.</string>
     <string name="ephemeris_about_set">The set time is when the sun or moon completely disappears below the horizon.</string>
@@ -26,19 +26,21 @@
     <string name="ephemeris_polar_night">Polar night</string>
     <string name="clock">Clock</string>
     <!-- Alerts -->
-    <string name="alert">Alert</string>
-    <string name="alerts">Alerts</string>
+    <string name="alert">Storm Alert</string>
+    <string name="alerts">Alerts Centre</string>
     <!-- Ex: 4 weather alerts -->
-    <string name="alerts_to_follow">Upcoming alerts, tap here to see them.</string>
+    <string name="alerts_to_follow">Weather updates available. Tap to view details.</string>
     <string name="alert_source">Source: %s</string>
     <!-- Daily/hourly forecast columns, must be as short as possible. -->
-    <string name="daily_yesterday">Yesterday</string>
-    <string name="daily_today">Today</string>
-    <string name="daily_tomorrow">Tomorrow</string>
-    <string name="daily_yesterday_short">Yda</string>
-    <string name="daily_today_short">Today</string>
-    <string name="daily_tomorrow_short">Tmw</string>
-    <string name="daily_summary">Daily summary</string>
+    <string name="daily_yesterday">Last Report</string>
+    <string name="daily_today">Latest Report</string>
+    <string name="daily_tomorrow">Upcoming Reports</string>
+
+    <string name="daily_yesterday_short">Prev</string>
+    <string name="daily_today_short">Now</string>
+    <string name="daily_tomorrow_short">Next</string>
+
+    <string name="daily_summary">Climate Brief</string>
     <!-- Charts -->
     <string name="chart_no_daily_data">No data available for this day.</string>
     <string name="chart_no_hourly_data">No hourly data available.</string>
